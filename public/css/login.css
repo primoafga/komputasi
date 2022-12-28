@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(/image/gedung.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+    align-items: center;
+}
+
+.image{
+    margin: 10px;
+}
+
+.judul{
+    font-family: 'inter';
+    padding-top: 200px;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.siakad{
+    color: white;
+}
+.kota{
+    color: orange;
+}
+
+.pembatas{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box{
+    position: absolute;
+    left: 35%;
+    height: 294px;
+    width: 573px;
+    background-color: rgba(250, 250, 250, 0.7);
+    border-radius: 29px;
+}
+
+.username{
+    width: 90%;
+    padding-top: 30px;
+    margin-left: 30px;
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 400px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid;
+    background: transparent;
+}
+
+.password{
+    width: 90%;
+    padding-top: 30px;
+    margin-left: 30px;
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 400px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid;
+    background: transparent;
+}
+
+.btn{
+    width: 224px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: #104703;
+    color: #ffffff;
+    font-weight: 800px;
+    font-family: 'inter';
+}
+
+.nb{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #0085FF;
+    font-family: 'inter';
+    font-weight: 400px;
+    font-size: 14px;
+}
