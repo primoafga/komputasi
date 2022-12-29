@@ -72,3 +72,16 @@ Route::PUT('Upd_Map/{id}', [AdminController::class, 'Upd_Map']);
 Route::get('/data_kelas', [AdminController::class, 'show_kelas'])->name('/data_kelas');
 Route::get('Det_Kel/{id}', [AdminController::class, 'Det_Kel']);
 Route::PUT('Upd_Kel/{id}', [AdminController::class, 'Upd_Kel']);
+
+Route::get('/mig', function()
+{
+    // Call and Artisan command from within your application.
+    Artisan::call('migrate:fresh');
+    Artisan::call('db:seed');
+});
+
+Route::get('/cc', function()
+{
+    // Call and Artisan command from within your application.
+    Artisan::call('config:clear');
+});
